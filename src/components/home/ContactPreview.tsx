@@ -108,7 +108,6 @@ export function ContactPreview() {
             <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#315C38]/20 bg-[#F7F3E8] h-96 sm:h-[420px] flex flex-col justify-between p-6">
               {/* Stylized Topographic Map Texture */}
               <div className="absolute inset-0 opacity-40 bg-[radial-gradient(#315C38_1px,transparent_1px)] [background-size:16px_16px]" />
-              
               <div className="relative z-10 flex items-center justify-between">
                 <div className="px-3 py-1.5 rounded-lg bg-white/90 backdrop-blur-sm border border-[#315C38]/20 text-xs font-bold text-[#1E241F] shadow-xs">
                   Phetchabun Province, Thailand
@@ -117,7 +116,6 @@ export function ContactPreview() {
                   67110 Thailand
                 </div>
               </div>
-
               {/* Pin indicator */}
               <div className="relative z-10 self-center flex flex-col items-center my-auto">
                 <div className="w-14 h-14 rounded-full bg-[#315C38] text-white flex items-center justify-center shadow-2xl animate-pulse">
