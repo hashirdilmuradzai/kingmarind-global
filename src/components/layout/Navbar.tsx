@@ -34,7 +34,10 @@ export function Navbar() {
   const navLinks = [
     { href: "/", label: t("Home", "หน้าแรก") },
     { href: "/about", label: t("About Us", "เกี่ยวกับเรา") },
+<<<<<<< HEAD
     { href: "/aboutthailand", label: t("About Thailand", "เกี่ยวกับประเทศไทย") },
+=======
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
     { href: "/products", label: t("Our Products", "ผลิตภัณฑ์ของเรา") },
     { href: "/quality", label: t("Quality & Processing", "คุณภาพและกรรมวิธี") },
     { href: "/export", label: t("Export", "การส่งออก") },

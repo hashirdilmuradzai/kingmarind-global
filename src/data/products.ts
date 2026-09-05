@@ -23,13 +23,18 @@ export interface Product {
   sizes: ProductSize[];
   wholesale: string;
   featured: boolean;
+<<<<<<< HEAD
   format: "Pitted" | "Whole Pod" | "Processed Paste" | "Confectionery Snack" | "Jar" | "Sealed Bag" | "Candy / Confectionery" | "Tea Bags" | "Pitted Whole Pods";
+=======
+  format: "Pitted" | "Whole Pod" | "Processed Paste" | "Confectionery Snack" | "Jar" | "Sealed Bag";
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
   exportPackagingOptions: string[];
   storageConditions: string;
   shelfLife: string;
 }
 
 export const PRODUCTS: Product[] = [
+<<<<<<< HEAD
  {
     id: 1,
     slug: "tamarind-candy",
@@ -53,11 +58,38 @@ export const PRODUCTS: Product[] = [
     featured: true,
     format: "Candy / Confectionery",
     exportPackagingOptions: ["130g Jar", "500g Bag", "1kg Bulk Pack"],
+=======
+  {
+    id: 1,
+    slug: "spicy-candied-tamarind",
+    name: "Spicy Candied Tamarind",
+    category: "Seasoned Tamarind",
+    categorySlug: "seasoned-tamarind",
+    type: "Seasoned Snack",
+    grade: "Export Standard",
+    flavor: "Sweet, Tangy & Mild Thai Chili Spice",
+    origin: "Phetchabun, Thailand",
+    shortDescription: "Tender tamarind pieces candied and seasoned with a balanced sweet, sour, and spicy Thai chili blend.",
+    description:
+      "A classic Thai specialty snack made from selected Phetchabun tamarind pulp, gently candied and tossed in a light blend of sugar, salt, and mild Thai chili. Delivers an authentic sweet-tangy burst with a gentle warming spice.",
+    image: "/images/seasoned_tamarind.jpg",
+    sizes: [
+      { size: "180 g", referencePriceThb: 40 },
+      { size: "500 g", referencePriceThb: 100 },
+      { size: "1 kg", referencePriceThb: 180 },
+      { size: "5 kg Bulk Box", bulkPriceThb: 350, shippingNote: "+ THB 185 domestic shipping" },
+    ],
+    wholesale: "Available in retail pouches (12-pack master cases) or 5 kg food-service bulk cartons.",
+    featured: true,
+    format: "Confectionery Snack",
+    exportPackagingOptions: ["180g Pouch (48/ctn)", "500g Pouch (24/ctn)", "1kg Foodservice Bag", "5kg Bulk Carton"],
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
     storageConditions: "Store in a cool, dry place away from direct sunlight.",
     shelfLife: "12 Months",
   },
   {
     id: 2,
+<<<<<<< HEAD
     slug: "dried-pitted-tamarind",
     name: "Dried Pitted Tamarind",
     category: "Seedless Tamarind",
@@ -70,6 +102,20 @@ export const PRODUCTS: Product[] = [
     description:
       "Kingmarind's Dried Pitted Tamarind offers the pure, unadulterated taste of premium Thai tamarind. Expertly pitted and dried, these tender tamarind segments are a healthy, natural snack packed with a rich, chewy texture without any artificial sugar coatings.",
     image: "/images/02.jpg",
+=======
+    slug: "sugar-coated-seedless-tamarind",
+    name: "Sugar-Coated Seedless Tamarind",
+    category: "Seedless Tamarind",
+    categorySlug: "seedless-tamarind",
+    type: "Seedless Snack",
+    grade: "Premium Seedless",
+    flavor: "Naturally Sweet with Delicate Sugar Crystals",
+    origin: "Phetchabun, Thailand",
+    shortDescription: "Pitted Thai tamarind segments lightly finished with fine sugar crystals for a clean, sweet bite.",
+    description:
+      "Selected seedless tamarind segments from Phetchabun, carefully deseeded and lightly coated with fine crystalline sugar. Provides a delightful textural contrast with a rich, chewy tamarind core.",
+    image: "/images/seedless_tamarind.jpg",
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
     sizes: [
       { size: "200 g", referencePriceThb: 75 },
       { size: "500 g", referencePriceThb: 150 },
@@ -78,13 +124,18 @@ export const PRODUCTS: Product[] = [
     ],
     wholesale: "Standard 12-bag wholesale cases or 3 kg commercial bulk packaging.",
     featured: true,
+<<<<<<< HEAD
     format: "Pitted Whole Pods",
+=======
+    format: "Pitted",
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
     exportPackagingOptions: ["200g Stand-up Pouch", "500g Zipper Bag", "1kg Vacuum Pack", "3kg Food-Service Box"],
     storageConditions: "Keep in a cool, dry area at 20°C–25°C.",
     shelfLife: "12 Months",
   },
   {
     id: 3,
+<<<<<<< HEAD
     slug: "tamarind-flower-tea",
     name: "Tamarind Flower Tea",
     category: "Herbal Tea",
@@ -107,6 +158,32 @@ export const PRODUCTS: Product[] = [
     exportPackagingOptions: ["Retail Tea Box", "Master Carton (24 Boxes)"],
     storageConditions: "Store in a cool, dry place away from moisture and strong odors.",
     shelfLife: "18 Months",
+=======
+    slug: "plum-coated-seedless-tamarind",
+    name: "Plum-Coated Seedless Tamarind",
+    category: "Seedless Tamarind",
+    categorySlug: "seedless-tamarind",
+    type: "Seedless Snack",
+    grade: "Premium Seedless",
+    flavor: "Sweet, Tangy & Aromatic Dried Plum",
+    origin: "Phetchabun, Thailand",
+    shortDescription: "100% seedless tamarind coated in aromatic Chinese/Thai dried plum seasoning for a savory-sweet kick.",
+    description:
+      "A hugely popular flavor profile across Asian and Middle Eastern snack markets. Pitted tamarind infused and coated with finely ground dried plum powder, balancing natural sweetness with tart savory notes.",
+    image: "/images/seasoned_tamarind.jpg",
+    sizes: [
+      { size: "200 g", referencePriceThb: 75 },
+      { size: "500 g", referencePriceThb: 150 },
+      { size: "1 kg", referencePriceThb: 250 },
+      { size: "3 kg Bulk", bulkPriceThb: 720, shippingNote: "+ THB 120 domestic shipping" },
+    ],
+    wholesale: "Master cases of 12 pouches, private label options, and 3 kg bulk cartons.",
+    featured: false,
+    format: "Pitted",
+    exportPackagingOptions: ["200g Retail Pack", "500g Resealable Pouch", "1kg Bag", "3kg Bulk Box"],
+    storageConditions: "Store dry, away from moisture and heat.",
+    shelfLife: "12 Months",
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
   },
   {
     id: 4,
