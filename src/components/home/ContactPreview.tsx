@@ -5,7 +5,24 @@ import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { COMPANY } from "@/data/company";
 import { useLanguage } from "@/components/common/LanguageContext";
+<<<<<<< HEAD
 import { MapPin, Phone, Mail, UserCheck, FileCheck2, ArrowRight, Clock, MessageSquare } from "lucide-react";
+=======
+<<<<<<< HEAD
+import {
+  MapPin,
+  Phone,
+  Mail,
+  UserCheck,
+  FileCheck2,
+  ArrowRight,
+  Clock,
+  MessageSquare,
+} from "lucide-react";
+=======
+import { MapPin, Phone, Mail, UserCheck, FileCheck2, ArrowRight, Clock, MessageSquare } from "lucide-react";
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
 
 export function ContactPreview() {
   const { t } = useLanguage();
@@ -19,18 +36,48 @@ export function ContactPreview() {
             <div className="flex items-center gap-2">
               <span className="w-5 h-[1.5px] bg-[#C9A24A]" />
               <span className="text-xs uppercase tracking-[0.2em] font-bold text-[#547A3F]">
+<<<<<<< HEAD
                 {t("Official Corporate Information", "ข้อมูลการติดต่อและนิติบุคคล")}
+=======
+<<<<<<< HEAD
+                {t(
+                  "Official Corporate Information",
+                  "ข้อมูลการติดต่อและนิติบุคคล",
+                )}
+=======
+                {t("Official Corporate Information", "ข้อมูลการติดต่อและนิติบุคคล")}
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
               </span>
             </div>
 
             <h2 className="text-3xl sm:text-4xl font-bold text-[#1E241F] tracking-tight leading-tight">
+<<<<<<< HEAD
               {t("Direct Communication with Kingmarind", "ติดต่อประสานงานโดยตรงกับสำนักงานใหญ่")}
+=======
+<<<<<<< HEAD
+              {t(
+                "Direct Communication with Kingmarind",
+                "ติดต่อประสานงานโดยตรงกับสำนักงานใหญ่",
+              )}
+=======
+              {t("Direct Communication with Kingmarind", "ติดต่อประสานงานโดยตรงกับสำนักงานใหญ่")}
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
             </h2>
 
             <p className="text-sm sm:text-base text-[#547A3F] leading-relaxed">
               {t(
                 "Our management team is based at our headquarters in Lom Sak, Phetchabun. We welcome direct inquiries from domestic wholesalers and international business partners.",
+<<<<<<< HEAD
                 "สำนักงานและศูนย์คัดสรรตั้งอยู่ ณ อำเภอหล่มสัก จังหวัดเพชรบูรณ์ พร้อมให้ข้อมูลและต้อนรับคู่ค้าทางธุรกิจทุกท่าน"
+=======
+<<<<<<< HEAD
+                "สำนักงานและศูนย์คัดสรรตั้งอยู่ ณ อำเภอหล่มสัก จังหวัดเพชรบูรณ์ พร้อมให้ข้อมูลและต้อนรับคู่ค้าทางธุรกิจทุกท่าน",
+=======
+                "สำนักงานและศูนย์คัดสรรตั้งอยู่ ณ อำเภอหล่มสัก จังหวัดเพชรบูรณ์ พร้อมให้ข้อมูลและต้อนรับคู่ค้าทางธุรกิจทุกท่าน"
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
               )}
             </p>
 
@@ -39,9 +86,27 @@ export function ContactPreview() {
               <div className="p-4 rounded-xl bg-[#F7F3E8] border border-[#315C38]/12 flex items-start gap-3.5">
                 <MapPin className="w-5 h-5 text-[#315C38] shrink-0 mt-0.5" />
                 <div>
+<<<<<<< HEAD
                   <div className="text-xs font-bold text-[#1E241F] uppercase tracking-wider">Registered Address</div>
                   <div className="text-sm font-semibold text-[#1E241F]">{COMPANY.name}</div>
                   <div className="text-xs text-[#547A3F] mt-0.5">{COMPANY.location.fullAddress}</div>
+=======
+<<<<<<< HEAD
+                  <div className="text-xs font-bold text-[#1E241F] uppercase tracking-wider">
+                    Registered Address
+                  </div>
+                  <div className="text-sm font-semibold text-[#1E241F]">
+                    {COMPANY.name}
+                  </div>
+                  <div className="text-xs text-[#547A3F] mt-0.5">
+                    {COMPANY.location.fullAddress}
+                  </div>
+=======
+                  <div className="text-xs font-bold text-[#1E241F] uppercase tracking-wider">Registered Address</div>
+                  <div className="text-sm font-semibold text-[#1E241F]">{COMPANY.name}</div>
+                  <div className="text-xs text-[#547A3F] mt-0.5">{COMPANY.location.fullAddress}</div>
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
                 </div>
               </div>
 
@@ -50,18 +115,54 @@ export function ContactPreview() {
                 <div className="p-4 rounded-xl bg-[#F7F3E8] border border-[#315C38]/12 flex items-start gap-3">
                   <UserCheck className="w-5 h-5 text-[#315C38] shrink-0 mt-0.5" />
                   <div>
+<<<<<<< HEAD
                     <div className="text-[11px] font-bold text-[#547A3F] uppercase tracking-wider">Managing Director</div>
                     <div className="text-xs font-bold text-[#1E241F]">{COMPANY.managingDirector.name}</div>
                     <div className="text-[11px] text-[#76543A]">({COMPANY.managingDirector.shortName})</div>
+=======
+<<<<<<< HEAD
+                    <div className="text-[11px] font-bold text-[#547A3F] uppercase tracking-wider">
+                      Managing Director
+                    </div>
+                    <div className="text-xs font-bold text-[#1E241F]">
+                      {COMPANY.managingDirector.name}
+                    </div>
+                    <div className="text-[11px] text-[#76543A]">
+                      ({COMPANY.managingDirector.shortName})
+                    </div>
+=======
+                    <div className="text-[11px] font-bold text-[#547A3F] uppercase tracking-wider">Managing Director</div>
+                    <div className="text-xs font-bold text-[#1E241F]">{COMPANY.managingDirector.name}</div>
+                    <div className="text-[11px] text-[#76543A]">({COMPANY.managingDirector.shortName})</div>
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
                   </div>
                 </div>
 
                 <div className="p-4 rounded-xl bg-[#F7F3E8] border border-[#315C38]/12 flex items-start gap-3">
                   <FileCheck2 className="w-5 h-5 text-[#315C38] shrink-0 mt-0.5" />
                   <div>
+<<<<<<< HEAD
                     <div className="text-[11px] font-bold text-[#547A3F] uppercase tracking-wider">Tax Registration ID</div>
                     <div className="text-xs font-mono font-bold text-[#1E241F]">{COMPANY.taxId}</div>
                     <div className="text-[11px] text-[#547A3F]">Thailand Commercial Reg.</div>
+=======
+<<<<<<< HEAD
+                    <div className="text-[11px] font-bold text-[#547A3F] uppercase tracking-wider">
+                      Tax Registration ID
+                    </div>
+                    <div className="text-xs font-mono font-bold text-[#1E241F]">
+                      {COMPANY.taxId}
+                    </div>
+                    <div className="text-[11px] text-[#547A3F]">
+                      Thailand Commercial Reg.
+                    </div>
+=======
+                    <div className="text-[11px] font-bold text-[#547A3F] uppercase tracking-wider">Tax Registration ID</div>
+                    <div className="text-xs font-mono font-bold text-[#1E241F]">{COMPANY.taxId}</div>
+                    <div className="text-[11px] text-[#547A3F]">Thailand Commercial Reg.</div>
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
                   </div>
                 </div>
               </div>
@@ -74,8 +175,22 @@ export function ContactPreview() {
                 >
                   <Phone className="w-5 h-5 text-[#315C38] shrink-0" />
                   <div>
+<<<<<<< HEAD
                     <div className="text-[10px] font-bold text-[#547A3F] uppercase tracking-wider">Telephone</div>
                     <div className="text-xs font-bold text-[#1E241F]">{COMPANY.contact.phoneFormatted}</div>
+=======
+<<<<<<< HEAD
+                    <div className="text-[10px] font-bold text-[#547A3F] uppercase tracking-wider">
+                      Telephone
+                    </div>
+                    <div className="text-xs font-bold text-[#1E241F]">
+                      {COMPANY.contact.phoneFormatted}
+                    </div>
+=======
+                    <div className="text-[10px] font-bold text-[#547A3F] uppercase tracking-wider">Telephone</div>
+                    <div className="text-xs font-bold text-[#1E241F]">{COMPANY.contact.phoneFormatted}</div>
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
                   </div>
                 </a>
 
@@ -85,8 +200,22 @@ export function ContactPreview() {
                 >
                   <Mail className="w-5 h-5 text-[#315C38] shrink-0" />
                   <div>
+<<<<<<< HEAD
                     <div className="text-[10px] font-bold text-[#547A3F] uppercase tracking-wider">Email Inquiry</div>
                     <div className="text-xs font-bold text-[#1E241F]">{COMPANY.contact.email}</div>
+=======
+<<<<<<< HEAD
+                    <div className="text-[10px] font-bold text-[#547A3F] uppercase tracking-wider">
+                      Email Inquiry
+                    </div>
+                    <div className="text-xs font-bold text-[#1E241F]">
+                      {COMPANY.contact.email}
+                    </div>
+=======
+                    <div className="text-[10px] font-bold text-[#547A3F] uppercase tracking-wider">Email Inquiry</div>
+                    <div className="text-xs font-bold text-[#1E241F]">{COMPANY.contact.email}</div>
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
                   </div>
                 </a>
               </div>
@@ -97,12 +226,49 @@ export function ContactPreview() {
                 href="/contact"
                 className="inline-flex items-center gap-2 text-sm font-bold text-[#315C38] hover:text-[#C9A24A] transition-colors"
               >
+<<<<<<< HEAD
                 <span>{t("View Full Contact & Location Details", "ดูหน้าติดต่อและแผนที่ฉบับเต็ม")}</span>
+=======
+<<<<<<< HEAD
+                <span>
+                  {t(
+                    "View Full Contact & Location Details",
+                    "ดูหน้าติดต่อและแผนที่ฉบับเต็ม",
+                  )}
+                </span>
+=======
+                <span>{t("View Full Contact & Location Details", "ดูหน้าติดต่อและแผนที่ฉบับเต็ม")}</span>
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+          {/* Right Column: Google Maps Location */}
+          <div className="lg:col-span-6">
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#315C38]/20 bg-[#F7F3E8] h-96 sm:h-[420px]">
+              <iframe
+                title="Kingmarind Co., Ltd. location"
+                src={COMPANY.location.mapsEmbedUrl}
+                className="h-full w-full border-0"
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+              />
+              <a
+                href={COMPANY.location.mapsUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-lg bg-white px-3 py-2 text-xs font-bold text-[#1E241F] shadow-lg transition-colors hover:text-[#315C38]"
+              >
+                <MapPin className="h-4 w-4 text-[#315C38]" />
+                Open in Google Maps
+              </a>
+=======
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
           {/* Right Column: Google Maps Style Visual Display */}
           <div className="lg:col-span-6">
             <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#315C38]/20 bg-[#F7F3E8] h-96 sm:h-[420px] flex flex-col justify-between p-6">
@@ -137,6 +303,10 @@ export function ContactPreview() {
                   Phetchabun 67110
                 </div>
               </div>
+<<<<<<< HEAD
+=======
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
             </div>
           </div>
         </div>

@@ -23,13 +23,49 @@ export interface Product {
   sizes: ProductSize[];
   wholesale: string;
   featured: boolean;
+<<<<<<< HEAD
   format: "Pitted" | "Whole Pod" | "Processed Paste" | "Confectionery Snack" | "Jar" | "Sealed Bag";
+=======
+<<<<<<< HEAD
+  format: "Pitted" | "Whole Pod" | "Processed Paste" | "Confectionery Snack" | "Jar" | "Sealed Bag" | "Candy / Confectionery" | "Tea Bags" | "Pitted Whole Pods";
+=======
+  format: "Pitted" | "Whole Pod" | "Processed Paste" | "Confectionery Snack" | "Jar" | "Sealed Bag";
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
   exportPackagingOptions: string[];
   storageConditions: string;
   shelfLife: string;
 }
 
 export const PRODUCTS: Product[] = [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ {
+    id: 1,
+    slug: "tamarind-candy",
+    name: "Tamarind Candy",
+    category: "Tamarind Confectionery",
+    categorySlug: "tamarind-confectionery",
+    type: "Seasoned Snack",
+    grade: "Premium Standard",
+    flavor: "Sweet, Tart & Mild Chili Spice",
+    origin: "Chonburi, Thailand",
+    shortDescription: "Bite-sized tamarind candies perfectly blended with sugar, a touch of salt, and mild chili for a delightful sweet and spicy kick.",
+    description:
+      "Enjoy the authentic taste of Kingmarind Tamarind Candy. Made with 50% real tamarind, these chewy, round candies offer a perfect balance of natural tartness, sweet sugar (45%), and a subtle chili kick. Packaged in a convenient, resealable jar.",
+    image: "/images/01.jpg",
+    sizes: [
+      { size: "130 g Jar", referencePriceThb: 45 },
+      { size: "500 g", referencePriceThb: 150 },
+      { size: "1 kg", referencePriceThb: 280 },
+    ],
+    wholesale: "Available in standard retail jars or bulk wholesale bags.",
+    featured: true,
+    format: "Candy / Confectionery",
+    exportPackagingOptions: ["130g Jar", "500g Bag", "1kg Bulk Pack"],
+=======
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
   {
     id: 1,
     slug: "spicy-candied-tamarind",
@@ -54,11 +90,32 @@ export const PRODUCTS: Product[] = [
     featured: true,
     format: "Confectionery Snack",
     exportPackagingOptions: ["180g Pouch (48/ctn)", "500g Pouch (24/ctn)", "1kg Foodservice Bag", "5kg Bulk Carton"],
+<<<<<<< HEAD
+=======
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
     storageConditions: "Store in a cool, dry place away from direct sunlight.",
     shelfLife: "12 Months",
   },
   {
     id: 2,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    slug: "dried-pitted-tamarind",
+    name: "Dried Pitted Tamarind",
+    category: "Seedless Tamarind",
+    categorySlug: "seedless-tamarind",
+    type: "Natural Snack",
+    grade: "Premium Seedless",
+    flavor: "Naturally Sweet & Tart",
+    origin: "Thailand",
+    shortDescription: "Premium dried and pitted Thai tamarind pods, carefully selected for a naturally sweet, tart, and chewy experience.",
+    description:
+      "Kingmarind's Dried Pitted Tamarind offers the pure, unadulterated taste of premium Thai tamarind. Expertly pitted and dried, these tender tamarind segments are a healthy, natural snack packed with a rich, chewy texture without any artificial sugar coatings.",
+    image: "/images/02.jpg",
+=======
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
     slug: "sugar-coated-seedless-tamarind",
     name: "Sugar-Coated Seedless Tamarind",
     category: "Seedless Tamarind",
@@ -71,6 +128,10 @@ export const PRODUCTS: Product[] = [
     description:
       "Selected seedless tamarind segments from Phetchabun, carefully deseeded and lightly coated with fine crystalline sugar. Provides a delightful textural contrast with a rich, chewy tamarind core.",
     image: "/images/seedless_tamarind.jpg",
+<<<<<<< HEAD
+=======
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
     sizes: [
       { size: "200 g", referencePriceThb: 75 },
       { size: "500 g", referencePriceThb: 150 },
@@ -79,13 +140,48 @@ export const PRODUCTS: Product[] = [
     ],
     wholesale: "Standard 12-bag wholesale cases or 3 kg commercial bulk packaging.",
     featured: true,
+<<<<<<< HEAD
     format: "Pitted",
+=======
+<<<<<<< HEAD
+    format: "Pitted Whole Pods",
+=======
+    format: "Pitted",
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
     exportPackagingOptions: ["200g Stand-up Pouch", "500g Zipper Bag", "1kg Vacuum Pack", "3kg Food-Service Box"],
     storageConditions: "Keep in a cool, dry area at 20°C–25°C.",
     shelfLife: "12 Months",
   },
   {
     id: 3,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    slug: "tamarind-flower-tea",
+    name: "Tamarind Flower Tea",
+    category: "Herbal Tea",
+    categorySlug: "herbal-tea",
+    type: "Beverage",
+    grade: "Premium Natural",
+    flavor: "Floral, Mildly Tart, and Soothing",
+    origin: "Thailand",
+    shortDescription: "A unique, soothing herbal tea made from natural tamarind flowers, offering a delicately tart and refreshing floral aroma.",
+    description:
+      "Discover the rare and refreshing taste of Kingmarind Tamarind Flower Tea. Harvested from natural tamarind blossoms, this herbal infusion provides a soothing, caffeine-free beverage experience. Enjoy its mildly tangy and aromatic profile hot or iced for ultimate relaxation.",
+    image: "/images/03.jpg",
+    sizes: [
+      { size: "Standard Box (Tea Bags)", referencePriceThb: 120 },
+      { size: "Wholesale Carton (24 Boxes)", bulkPriceThb: 2500 },
+    ],
+    wholesale: "Available in standard retail boxes or master cartons for wholesale.",
+    featured: false,
+    format: "Tea Bags",
+    exportPackagingOptions: ["Retail Tea Box", "Master Carton (24 Boxes)"],
+    storageConditions: "Store in a cool, dry place away from moisture and strong odors.",
+    shelfLife: "18 Months",
+=======
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
     slug: "plum-coated-seedless-tamarind",
     name: "Plum-Coated Seedless Tamarind",
     category: "Seedless Tamarind",
@@ -110,6 +206,10 @@ export const PRODUCTS: Product[] = [
     exportPackagingOptions: ["200g Retail Pack", "500g Resealable Pouch", "1kg Bag", "3kg Bulk Box"],
     storageConditions: "Store dry, away from moisture and heat.",
     shelfLife: "12 Months",
+<<<<<<< HEAD
+=======
+>>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
+>>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
   },
   {
     id: 4,
