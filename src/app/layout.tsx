@@ -92,19 +92,11 @@ export default function RootLayout({
   };
 
   return (
-<<<<<<< HEAD
-    <html lang="en" suppressHydrationWarning className={`${plusJakarta.variable} ${playfair.variable}`}>
-=======
-<<<<<<< HEAD
     <html
       lang="en"
       suppressHydrationWarning
       className={`${plusJakarta.variable} ${playfair.variable}`}
     >
-=======
-    <html lang="en" suppressHydrationWarning className={`${plusJakarta.variable} ${playfair.variable}`}>
->>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
->>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
       <head>
         <script
           type="application/ld+json"
@@ -113,18 +105,10 @@ export default function RootLayout({
           }}
         />
       </head>
-<<<<<<< HEAD
-      <body className="antialiased bg-[#FCFBF7] text-[#1E241F] flex flex-col min-h-screen">
-=======
-<<<<<<< HEAD
       <body
         suppressHydrationWarning
         className="antialiased bg-[#FCFBF7] text-[#1E241F] flex flex-col min-h-screen"
       >
-=======
-      <body className="antialiased bg-[#FCFBF7] text-[#1E241F] flex flex-col min-h-screen">
->>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
->>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
         <LanguageProvider>
           <RfqProvider>
             <Navbar />

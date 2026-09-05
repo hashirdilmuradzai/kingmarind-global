@@ -86,15 +86,7 @@ export const CATEGORIES: ProductCategory[] = [
     shortDescription: "Tamarind paste, tamarind candy and other processed formats.",
     fullDescription:
       "Versatile processed formats including edible tamarind paste, coconut tamarind paste, glazed tamarind, and candied tamarind for retail snacking and food ingredient applications.",
-<<<<<<< HEAD
-    image: "/images/tamarind_snacks.jpg",
-=======
-<<<<<<< HEAD
     image: "/images/01.jpg",
-=======
-    image: "/images/tamarind_snacks.jpg",
->>>>>>> c75563701e7c0e7d06b8a5d48be340d26a9955b7
->>>>>>> 6b5b9eb5d26850d024130dff06f5f196abcba03d
     productCount: 5,
     highlightFeatures: ["Pure & Coconut Paste", "Glazed Varieties", "Culinary & Confectionery", "Flexible Bulk"],
   },
